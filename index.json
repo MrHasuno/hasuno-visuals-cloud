@@ -1,5 +1,11 @@
 {
   "version": 1,
+  "publishUrl": "https://hasuno-presets.mrhasuno.workers.dev",
+  "styles": [ ... ]
+}
+
+{
+  "version": 1,
   "publishUrl": null,
   "styles": [
     {
