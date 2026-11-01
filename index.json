@@ -353,6 +353,16 @@
       "preview": "previews/armor_hitsonly_classic.png"
     },
     {
+      "id": "armor_ice",
+      "category": "armor",
+      "name": "Ice",
+      "sha256": "8e44e6c44ba51390732077b9c5f4aa30b9651e14eb07aab9df6a0f02a79994d8",
+      "size": 3491,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/armor_ice.png"
+    },
+    {
       "id": "armor_monkahhremake",
       "category": "armor",
       "name": "monkahhremake",
@@ -811,6 +821,16 @@
       "added": "2026-10-10",
       "early": false,
       "preview": "previews/axe_purpslight.png"
+    },
+    {
+      "id": "axe_redblack",
+      "category": "axe",
+      "name": "Red & Black",
+      "sha256": "bcb61137293047fa545af8f9c94a31b6db0f7ca9563cab7aab7fdebec628bc01",
+      "size": 1788,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/axe_redblack.png"
     },
     {
       "id": "axe_scenery",
@@ -1291,6 +1311,16 @@
       "added": "2026-10-23",
       "early": false,
       "preview": "previews/crystal_iamverox.png"
+    },
+    {
+      "id": "crystal_ice",
+      "category": "crystal",
+      "name": "Ice",
+      "sha256": "ac79a16b8fe81fbcd4e1ae6718c182db08befcfb1027e0f13ea748924e2e780d",
+      "size": 16798,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/crystal_ice.png"
     },
     {
       "id": "crystal_kesu_main",
@@ -1833,6 +1863,16 @@
       "preview": "previews/gap_tostertobi_the_nn.png"
     },
     {
+      "id": "gap_void",
+      "category": "gap",
+      "name": "Void",
+      "sha256": "4314af2283eaa4588d7708ee1dbedfb3a1e7826e49e3e232b1687f93b1233075",
+      "size": 791,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/gap_void.png"
+    },
+    {
       "id": "glowstone_blue_by_aiimgod",
       "category": "glowstone",
       "name": "Blue by AiimGod",
@@ -2261,6 +2301,16 @@
       "added": "2026-10-17",
       "early": false,
       "preview": "previews/mace_rainbow.png"
+    },
+    {
+      "id": "mace_redblack",
+      "category": "mace",
+      "name": "Red & Black",
+      "sha256": "2a4f06c7e21135a144c95ca128a988abfbe8b29dce8bc2433efaf3c3a4a7ab58",
+      "size": 2302,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/mace_redblack.png"
     },
     {
       "id": "mace_royal_gold",
@@ -2943,6 +2993,16 @@
       "preview": "previews/pearl_veroxsibbi.png"
     },
     {
+      "id": "pearl_void",
+      "category": "pearl",
+      "name": "Void",
+      "sha256": "4fa9521bfb63467468cb77a4a375634c46327018752a08c7ffd9e16d3a72327a",
+      "size": 692,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/pearl_void.png"
+    },
+    {
       "id": "pearl_zurial0g",
       "category": "pearl",
       "name": "Zurial0G",
@@ -3081,6 +3141,16 @@
       "added": "2026-10-23",
       "early": false,
       "preview": "previews/shield_sigma.png"
+    },
+    {
+      "id": "sky_cloudphoto",
+      "category": "sky",
+      "name": "Cloud Photo",
+      "sha256": "00e96a1978b966c2bf438559d586e77088fcf8cc73f00840c22102fc7f5aaeed",
+      "size": 1258347,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sky_cloudphoto.png"
     },
     {
       "id": "spear_bone",
@@ -3243,6 +3313,16 @@
       "preview": "previews/spear_rainbow.png"
     },
     {
+      "id": "spear_redblack",
+      "category": "spear",
+      "name": "Red & Black",
+      "sha256": "fbbc81b083152d5592c2a1d619ef15e7ea9718691d4422681a260b242de24318",
+      "size": 10702,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/spear_redblack.png"
+    },
+    {
       "id": "spear_royal_gold",
       "category": "spear",
       "name": "Royal Gold",
@@ -3391,6 +3471,26 @@
       "added": "2026-10-23",
       "early": false,
       "preview": "previews/sword_fruit_pack_kopie.png"
+    },
+    {
+      "id": "sword_ice",
+      "category": "sword",
+      "name": "Ice",
+      "sha256": "059d265e8c9b226f8f1fb035ef41ae7760ce91b4caa7fff864709256bf38bb6b",
+      "size": 4215,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_ice.png"
+    },
+    {
+      "id": "sword_redblack",
+      "category": "sword",
+      "name": "Red & Black",
+      "sha256": "b1210df7a946e41ef115188a42565b0df89f050240c2c8d1b5406fc880e2781b",
+      "size": 4589,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_redblack.png"
     },
     {
       "id": "sword_the_best_lifesteal_smp_texture_pack_1_19",
@@ -3651,6 +3751,16 @@
       "added": "2026-10-06",
       "early": false,
       "preview": "previews/totem_sixuii_tweaks.png"
+    },
+    {
+      "id": "totem_skull",
+      "category": "totem",
+      "name": "Skull",
+      "sha256": "34c1d1ff963ba6cef36aa0452b8cea124b9b7e64ef4fc78205c9fc9b4c63ceb0",
+      "size": 757,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/totem_skull.png"
     },
     {
       "id": "totem_teletuppes",
