@@ -92,6 +92,27 @@ def find_preview(stem):
     return None
 
 
+def publish_url():
+    """The preset board address, read from worker-url.txt so a rebuild never loses it.
+
+    worker-url.txt holds one line, the Worker URL, for example
+        https://hasuno-presets.mrhasuno.workers.dev
+    The mod only accepts https://<name>.<account>.workers.dev, so anything else is ignored.
+    """
+    path = os.path.join(ROOT, "worker-url.txt")
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.split("#", 1)[0].strip()
+            if not line:
+                continue
+            if re.fullmatch(r"https://[a-z0-9-]+\.[a-z0-9-]+\.workers\.dev", line):
+                return line
+            print(f"worker-url.txt: '{line}' is not a workers.dev URL - ignored")
+    return None
+
+
 def main():
     check_only = "--check" in sys.argv
     names = read_names()
@@ -136,7 +157,14 @@ def main():
         out_zip = os.path.join(PACKS, stem + ".zip")
         if not check_only:
             if is_zip:
-                shutil.copyfile(full, out_zip)
+                # hardlink where the filesystem allows it: packs/ can be 350 MB of skies and
+                # there is no reason to keep two copies of the bytes
+                try:
+                    if os.path.exists(out_zip):
+                        os.remove(out_zip)
+                    os.link(full, out_zip)
+                except OSError:
+                    shutil.copyfile(full, out_zip)
             else:
                 zip_dir(full, out_zip)
         size = os.path.getsize(out_zip) if os.path.exists(out_zip) else (
@@ -161,19 +189,67 @@ def main():
             style["preview"] = "previews/" + stem + ".png"
         styles.append(style)
 
+    # a pack file that exists but is not in the catalogue (dropped in by hand, or restored from an
+    # old commit) is indexed rather than ignored - and never deleted
     if not check_only:
+        seen_now = {s["id"] for s in styles}
+        for f in sorted(os.listdir(PACKS)) if os.path.isdir(PACKS) else []:
+            if not f.endswith(".zip"):
+                continue
+            sid = f[:-4]
+            if sid in seen_now or not ID_RE.match(sid):
+                continue
+            category = sid.split("_", 1)[0]
+            if category not in CATEGORIES:
+                continue
+            full = os.path.join(PACKS, f)
+            style = {
+                "id": sid,
+                "category": category,
+                "name": (names.get(sid) or sid.split("_", 1)[-1].replace("_", " ").title())[:40],
+                "sha256": hashlib.sha256(open(full, "rb").read()).hexdigest(),
+                "size": os.path.getsize(full),
+                "added": old.get(sid, {}).get("added", datetime.date.today().isoformat()),
+                "early": bool(old.get(sid, {}).get("early", False)),
+            }
+            if os.path.isfile(os.path.join(PREVIEWS, sid + ".png")):
+                style["preview"] = "previews/" + sid + ".png"
+            styles.append(style)
+            print(f"  indexed {sid} from packs/ (it had no catalogue entry)")
+
+    if not check_only:
+        # anything the catalogue already knew about but whose files are not in this checkout
+        # (the big sky packs are uploaded straight from our side) is carried over untouched -
+        # dropping it would silently remove styles from everybody's menu
+        seen = {s["id"] for s in styles}
+        for sid, entry in old.items():
+            if sid not in seen:
+                styles.append(entry)
+                print(f"  kept {sid} from the previous index (no files for it in this checkout)")
         keep = {s["id"] for s in styles}
-        for f in os.listdir(PACKS):
+        # packs/ is never pruned: deleting a zip here once removed 26 sky packs. Files with no
+        # catalogue entry are reported instead, so a human decides.
+        for f in sorted(os.listdir(PACKS)) if os.path.isdir(PACKS) else []:
             if f.endswith(".zip") and f[:-4] not in keep:
-                os.remove(os.path.join(PACKS, f))
-        for f in os.listdir(PREVIEWS):
+                print(f"   note: packs/{f} is not in the catalogue and was left alone")
+        for f in sorted(os.listdir(PREVIEWS)) if os.path.isdir(PREVIEWS) else []:
             if f.lower().endswith(IMAGE_EXT) and os.path.splitext(f)[0] not in keep:
-                os.remove(os.path.join(PREVIEWS, f))
-        index = {"version": 1, "publishUrl": None, "styles": styles,
+                print(f"   note: previews/{f} has no style and was left alone")
+        index = {"version": 1, "publishUrl": publish_url(), "styles": styles,
                  "categories": categories, "adminCategories": admin_categories}
         with open(INDEX, "w", encoding="utf-8") as fh:
             json.dump(index, fh, indent=2)
             fh.write("\n")
+
+    # be loud about styles whose pack file is not here: they stay in the catalogue (so a rebuild
+    # never drops styles that only exist in the cloud) but they cannot download
+    orphans = [s["id"] for s in styles if not os.path.isfile(os.path.join(PACKS, s["id"] + ".zip"))]
+    if orphans:
+        print(f"!! {len(orphans)} style(s) have a catalogue entry but no pack file - "
+              f"they will not download:")
+        for o in orphans:
+            print("   " + o)
+        print("   restore them before pushing (see RESTORE-SKIES.md)")
 
     print(f"{len(styles)} style(s)" + (" (check only, nothing written)" if check_only else " written to index.json"))
     for s in styles:
