@@ -1,7 +1,587 @@
 {
   "version": 1,
-  "publishUrl": "https://hasuno-presets.halkaytab.workers.dev",
+  "publishUrl": null,
   "styles": [
+    {
+      "id": "armor_ice",
+      "category": "armor",
+      "name": "Ice",
+      "sha256": "8e44e6c44ba51390732077b9c5f4aa30b9651e14eb07aab9df6a0f02a79994d8",
+      "size": 3491,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/armor_ice.png"
+    },
+    {
+      "id": "axe_redblack",
+      "category": "axe",
+      "name": "Red & Black",
+      "sha256": "bcb61137293047fa545af8f9c94a31b6db0f7ca9563cab7aab7fdebec628bc01",
+      "size": 1788,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/axe_redblack.png"
+    },
+    {
+      "id": "crystal_ice",
+      "category": "crystal",
+      "name": "Ice",
+      "sha256": "ac79a16b8fe81fbcd4e1ae6718c182db08befcfb1027e0f13ea748924e2e780d",
+      "size": 16798,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/crystal_ice.png"
+    },
+    {
+      "id": "gap_abyss",
+      "category": "gap",
+      "name": "Abyss",
+      "sha256": "1ca5654405512cb6f397595004387ae6942af1b9a22a139873fee811b6e18c43",
+      "size": 783,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/gap_abyss.png"
+    },
+    {
+      "id": "gap_blood",
+      "category": "gap",
+      "name": "Blood",
+      "sha256": "54d648a4786842199062b507415a009b7c09a61146c0c1d856032aa27ae3aaa4",
+      "size": 767,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/gap_blood.png"
+    },
+    {
+      "id": "gap_void",
+      "category": "gap",
+      "name": "Void",
+      "sha256": "4314af2283eaa4588d7708ee1dbedfb3a1e7826e49e3e232b1687f93b1233075",
+      "size": 791,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/gap_void.png"
+    },
+    {
+      "id": "mace_mono",
+      "category": "mace",
+      "name": "Mono",
+      "sha256": "455ca7b754acafc3c5888187b5f23273123c735dff8d87709924f84fdb7625bf",
+      "size": 2292,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/mace_mono.png"
+    },
+    {
+      "id": "mace_redblack",
+      "category": "mace",
+      "name": "Red & Black",
+      "sha256": "2a4f06c7e21135a144c95ca128a988abfbe8b29dce8bc2433efaf3c3a4a7ab58",
+      "size": 2302,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/mace_redblack.png"
+    },
+    {
+      "id": "pearl_hex",
+      "category": "pearl",
+      "name": "Hex",
+      "sha256": "ffcfd7591342f742660786ec39a84e2a317848e5c9821867bbbab18fe87cc2a4",
+      "size": 777,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/pearl_hex.png"
+    },
+    {
+      "id": "pearl_mint",
+      "category": "pearl",
+      "name": "Mint",
+      "sha256": "bb29cc5d025211298671a54e49ce047e3d70924c8a032ef74c248df4b54e6714",
+      "size": 779,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/pearl_mint.png"
+    },
+    {
+      "id": "pearl_void",
+      "category": "pearl",
+      "name": "Void",
+      "sha256": "4fa9521bfb63467468cb77a4a375634c46327018752a08c7ffd9e16d3a72327a",
+      "size": 692,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/pearl_void.png"
+    },
+    {
+      "id": "sky_cloudphoto",
+      "category": "sky",
+      "name": "Cloud Photo",
+      "sha256": "00e96a1978b966c2bf438559d586e77088fcf8cc73f00840c22102fc7f5aaeed",
+      "size": 1258347,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sky_cloudphoto.png"
+    },
+    {
+      "id": "spear_redblack",
+      "category": "spear",
+      "name": "Red & Black",
+      "sha256": "fbbc81b083152d5592c2a1d619ef15e7ea9718691d4422681a260b242de24318",
+      "size": 10702,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/spear_redblack.png"
+    },
+    {
+      "id": "sword_abyss",
+      "category": "sword",
+      "name": "Abyss",
+      "sha256": "7f074711028cd99c13f452772faede666eeadad5b2cd7cdfa094c5c141f79880",
+      "size": 4170,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_abyss.png"
+    },
+    {
+      "id": "sword_blood",
+      "category": "sword",
+      "name": "Blood",
+      "sha256": "197ef8e9f7d2c8b530cb56987e16fe93bca421a1c1367fc1289445efc41a0f14",
+      "size": 4197,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_blood.png"
+    },
+    {
+      "id": "sword_gilded",
+      "category": "sword",
+      "name": "Gilded",
+      "sha256": "ebe5f880faea072086ea072cad79d1f5ada4aa706be3bd53dfb2b8854ee2b609",
+      "size": 3943,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_gilded.png"
+    },
+    {
+      "id": "sword_hex",
+      "category": "sword",
+      "name": "Hex",
+      "sha256": "016de589b68d7308ce3aed33e2b14e711bbbbcb2bef36db873b347c7208f6ffc",
+      "size": 4102,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_hex.png"
+    },
+    {
+      "id": "sword_ice",
+      "category": "sword",
+      "name": "Ice",
+      "sha256": "059d265e8c9b226f8f1fb035ef41ae7760ce91b4caa7fff864709256bf38bb6b",
+      "size": 4215,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_ice.png"
+    },
+    {
+      "id": "sword_mint",
+      "category": "sword",
+      "name": "Mint",
+      "sha256": "5d2ce2efcf8083a56b46490732de9efff5ff073f4cbc400c6d85f92a8e98db63",
+      "size": 4063,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_mint.png"
+    },
+    {
+      "id": "sword_mono",
+      "category": "sword",
+      "name": "Mono",
+      "sha256": "28b546057e5f21b1d04f12f99f674c65639874559cd8d65b11d7cf198a825586",
+      "size": 4100,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_mono.png"
+    },
+    {
+      "id": "sword_redblack",
+      "category": "sword",
+      "name": "Red & Black",
+      "sha256": "b1210df7a946e41ef115188a42565b0df89f050240c2c8d1b5406fc880e2781b",
+      "size": 4589,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_redblack.png"
+    },
+    {
+      "id": "sword_sunset",
+      "category": "sword",
+      "name": "Sunset",
+      "sha256": "70043df6c12f20af214328e307775c16b29b539ad99becc6a8971f97498547a9",
+      "size": 4078,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_sunset.png"
+    },
+    {
+      "id": "sword_verdant",
+      "category": "sword",
+      "name": "Verdant",
+      "sha256": "1610dc742c769308aa9e4d314e9a946d7906f6ea30af325bf28744c2115f8239",
+      "size": 4209,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_verdant.png"
+    },
+    {
+      "id": "totem_abyss",
+      "category": "totem",
+      "name": "Abyss",
+      "sha256": "5e8bddba7c8178d408b3accefc4e228c33958d3a04d06deab86674429c0a8eab",
+      "size": 820,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/totem_abyss.png"
+    },
+    {
+      "id": "totem_blood",
+      "category": "totem",
+      "name": "Blood",
+      "sha256": "8d2d8600e6b05331a96ff9a995bb5f064e8b48e612986948c0e641b600549721",
+      "size": 806,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/totem_blood.png"
+    },
+    {
+      "id": "totem_gilded",
+      "category": "totem",
+      "name": "Gilded",
+      "sha256": "e931c35083cf8370c5c8d3544b665eb7ce80ebab7884411e789d92b2728b843a",
+      "size": 824,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/totem_gilded.png"
+    },
+    {
+      "id": "totem_skull",
+      "category": "totem",
+      "name": "Skull",
+      "sha256": "34c1d1ff963ba6cef36aa0452b8cea124b9b7e64ef4fc78205c9fc9b4c63ceb0",
+      "size": 757,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/totem_skull.png"
+    },
+    {
+      "id": "sword_6_l_ovanilla_e_l_o",
+      "category": "sword",
+      "name": "\u23216\u2321l\u2321oVANILLA \u2321e\u2321l\u2321o+",
+      "sha256": "b2b526c7a233964a1a1bba29e1d5f0a9e79ea70ff55d583d13947cb1d3dcc3c5",
+      "size": 1227,
+      "added": "2026-10-23",
+      "early": false,
+      "preview": "previews/sword_6_l_ovanilla_e_l_o.png"
+    },
+    {
+      "id": "sword_7_5_lein_4_lclient",
+      "category": "sword",
+      "name": "\u23217!#\u23215\u2321lEin\u23214\u2321lClient",
+      "sha256": "c53e95a02126c93bdb8ff858f58df34ce75b9c776215dae03e5d8c259b04d3a0",
+      "size": 30421,
+      "added": "2026-10-23",
+      "early": false,
+      "preview": "previews/sword_7_5_lein_4_lclient.png"
+    },
+    {
+      "id": "sword_aiimgod_pro",
+      "category": "sword",
+      "name": "AiimGod Pro",
+      "sha256": "5a9f322e2bc215ccfe7258a57b0f4a9f12baee7729327b54dd33052876591965",
+      "size": 4734,
+      "added": "2026-10-23",
+      "early": false,
+      "preview": "previews/sword_aiimgod_pro.png"
+    },
+    {
+      "id": "sword_auraexp_blu",
+      "category": "sword",
+      "name": "Auraexp Blu",
+      "sha256": "1b98b607981e4dcc03cb6edfa7d160e34e3fbec594d0ac16700d399cc1e9119b",
+      "size": 10086,
+      "added": "2026-10-04",
+      "early": false,
+      "preview": "previews/sword_auraexp_blu.png"
+    },
+    {
+      "id": "sword_bone",
+      "category": "sword",
+      "name": "Bone",
+      "sha256": "b99da095c7e65a193a5e2a2a5ba38b0438ad5caebf44165d6b3775bd5a000485",
+      "size": 4283,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_bone.png"
+    },
+    {
+      "id": "sword_candy_cane",
+      "category": "sword",
+      "name": "Candy Cane",
+      "sha256": "7189f30b6458f20349d95e5784ff02f58750ad7d99486b2b8764a9467fbb7c5f",
+      "size": 4187,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_candy_cane.png"
+    },
+    {
+      "id": "sword_crimson",
+      "category": "sword",
+      "name": "Crimson",
+      "sha256": "e9db3b50315eb5c53bccbb72a2c361a14e64c729ddad65ee6e1e3ed88beb11a0",
+      "size": 4213,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_crimson.png"
+    },
+    {
+      "id": "sword_dragneel",
+      "category": "sword",
+      "name": "Dragneel",
+      "sha256": "132421b8b99d0b340a54ca0fac45014d0807ebcd9e3d14410b01bab0cde53a78",
+      "size": 14017,
+      "added": "2026-10-23",
+      "early": false,
+      "preview": "previews/sword_dragneel.png"
+    },
+    {
+      "id": "sword_electric",
+      "category": "sword",
+      "name": "Electric",
+      "sha256": "04262dbdb5ceab802c76464c2e12e3d3475c1f432ca1b95e93fccbe81e509883",
+      "size": 4238,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_electric.png"
+    },
+    {
+      "id": "sword_ember",
+      "category": "sword",
+      "name": "Ember",
+      "sha256": "bca863b23a8d5541c37c988fe5cfcf6df9f20460fe529de988d48e0f401e6120",
+      "size": 4164,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_ember.png"
+    },
+    {
+      "id": "sword_emerald",
+      "category": "sword",
+      "name": "Emerald",
+      "sha256": "a7064fb6c638d3a88a800f118ae16377295214969c521734e5ad4b8f2fd17366",
+      "size": 4194,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_emerald.png"
+    },
+    {
+      "id": "sword_f_lsakura_tweaks",
+      "category": "sword",
+      "name": "\u2321F\u2321lSakura Tweaks",
+      "sha256": "3fc0eaa500e9708fcdd5ff4af66b70f1ca8aa1e5ac3f47ff02ce254b3cc24f4f",
+      "size": 10514,
+      "added": "2026-10-23",
+      "early": false,
+      "preview": "previews/sword_f_lsakura_tweaks.png"
+    },
+    {
+      "id": "sword_frost",
+      "category": "sword",
+      "name": "Frost",
+      "sha256": "2f2a1cf4abe463b8f9bd3d51c5c1e88b91d435965f39a92ac465448e238fc802",
+      "size": 4154,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_frost.png"
+    },
+    {
+      "id": "sword_frostbite",
+      "category": "sword",
+      "name": "Frostbite",
+      "sha256": "5ea26953e5923f4d62bf3bc8fb8d0af28f2f80b27bf3126f746b0712ba9d8dca",
+      "size": 4556,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_frostbite.png"
+    },
+    {
+      "id": "sword_fruit_pack_kopie",
+      "category": "sword",
+      "name": "Fruit Pack - Kopie",
+      "sha256": "c3c4c10a282388afaec4974c2b9ec6f2b5bc8a89060e5ad93a51b9e18c031db8",
+      "size": 434791,
+      "added": "2026-10-23",
+      "early": false,
+      "preview": "previews/sword_fruit_pack_kopie.png"
+    },
+    {
+      "id": "sword_galaxy",
+      "category": "sword",
+      "name": "Galaxy",
+      "sha256": "8e3ad00712f8321445e9816de0d2d7d3b3d211c9cac3ccfc128b2233884cc43b",
+      "size": 4257,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_galaxy.png"
+    },
+    {
+      "id": "sword_haunted",
+      "category": "sword",
+      "name": "Haunted",
+      "sha256": "169c4fccebb36346cd3f8a2b6a233264de6b85745adfd5454ebfb36461db78ca",
+      "size": 4438,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_haunted.png"
+    },
+    {
+      "id": "sword_heartbeat",
+      "category": "sword",
+      "name": "Heartbeat",
+      "sha256": "3a3489c5b0b30d42506f144cb8c3015c375ce73a3e2970126416d8919efc7868",
+      "size": 4420,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_heartbeat.png"
+    },
+    {
+      "id": "sword_magma",
+      "category": "sword",
+      "name": "Magma",
+      "sha256": "a80571f7ee09b59cf720c79f90b05ee593f3944fc4a20c410ab58a07fa67a26d",
+      "size": 4322,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_magma.png"
+    },
+    {
+      "id": "sword_neon",
+      "category": "sword",
+      "name": "Neon",
+      "sha256": "9789d03262d1e93ff5062a6cb050773228dda1dae623d8b7aced4143cf174aa5",
+      "size": 4248,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_neon.png"
+    },
+    {
+      "id": "sword_plasma",
+      "category": "sword",
+      "name": "Plasma",
+      "sha256": "c2a25c69e77019640aaf713dd641f5d2a8f8086b48da0c5a5ad97047a7fa9f74",
+      "size": 4208,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_plasma.png"
+    },
+    {
+      "id": "sword_pumpkin",
+      "category": "sword",
+      "name": "Pumpkin",
+      "sha256": "29dddc9c5bff938bd88628b694f575c82fcd3512d806ba0d14be56eef661dc03",
+      "size": 4364,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_pumpkin.png"
+    },
+    {
+      "id": "sword_rainbow",
+      "category": "sword",
+      "name": "Rainbow",
+      "sha256": "020a2792c3b75ed37549cc294da46036323890c7a34f3efbf5e1fc581da4fa19",
+      "size": 4630,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_rainbow.png"
+    },
+    {
+      "id": "sword_royal_gold",
+      "category": "sword",
+      "name": "Royal Gold",
+      "sha256": "321e98d1b672e8d9d79e7214003f39647141f3191e48909e22753110aea685e8",
+      "size": 4267,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_royal_gold.png"
+    },
+    {
+      "id": "sword_sakura",
+      "category": "sword",
+      "name": "Sakura",
+      "sha256": "2ea3493d94c9fc57918d4f98808f2c6982cb01ce6c130bab298ac0002c19033d",
+      "size": 4188,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_sakura.png"
+    },
+    {
+      "id": "sword_shadow_flame",
+      "category": "sword",
+      "name": "Shadow Flame",
+      "sha256": "be9a17d6ea85f54e3beeba34b612bb2e1275e850a304826e14f5ee84355f3ea3",
+      "size": 4481,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_shadow_flame.png"
+    },
+    {
+      "id": "sword_the_best_lifesteal_smp_texture_pack_1_19",
+      "category": "sword",
+      "name": "The BEST Lifesteal SMP Texture pack 1.19",
+      "sha256": "40e62e991f6395e65f0d4e49cb90bacbcd1bf583e9efe8409ba13191308186ac",
+      "size": 2027,
+      "added": "2026-10-23",
+      "early": false,
+      "preview": "previews/sword_the_best_lifesteal_smp_texture_pack_1_19.png"
+    },
+    {
+      "id": "sword_toxic",
+      "category": "sword",
+      "name": "Toxic",
+      "sha256": "c186e73e95e52938ab0f554fee8c7a60ab5c8363f4d9a6f782f8900a4e24b43f",
+      "size": 4456,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_toxic.png"
+    },
+    {
+      "id": "sword_void",
+      "category": "sword",
+      "name": "Void",
+      "sha256": "2abd43927e027bb7909f4c5dc68fdaec7319a36e52509374b55cbb80339acdfe",
+      "size": 4402,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_void.png"
+    },
+    {
+      "id": "sword_void_aura",
+      "category": "sword",
+      "name": "Void Aura",
+      "sha256": "8e10f9d5ff59ef2d9c40b4f87cee111a6ffd20ce8e65e072f19fcf6628d85661",
+      "size": 4463,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_void_aura.png"
+    },
+    {
+      "id": "sky_rulers",
+      "category": "sky",
+      "name": "Rulers",
+      "sha256": "059d265e8c9b226f8f1fb035ef41ae7760ce91b4caa7fff864709256bf38bb6b",
+      "size": 4215,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sky_rulers.png"
+    },
     {
       "id": "anchor_198m_blackie",
       "category": "anchor",
@@ -351,16 +931,6 @@
       "added": "2026-10-04",
       "early": false,
       "preview": "previews/armor_hitsonly_classic.png"
-    },
-    {
-      "id": "armor_ice",
-      "category": "armor",
-      "name": "Ice",
-      "sha256": "8e44e6c44ba51390732077b9c5f4aa30b9651e14eb07aab9df6a0f02a79994d8",
-      "size": 3491,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/armor_ice.png"
     },
     {
       "id": "armor_monkahhremake",
@@ -821,16 +1391,6 @@
       "added": "2026-10-10",
       "early": false,
       "preview": "previews/axe_purpslight.png"
-    },
-    {
-      "id": "axe_redblack",
-      "category": "axe",
-      "name": "Red & Black",
-      "sha256": "bcb61137293047fa545af8f9c94a31b6db0f7ca9563cab7aab7fdebec628bc01",
-      "size": 1788,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/axe_redblack.png"
     },
     {
       "id": "axe_scenery",
@@ -1313,16 +1873,6 @@
       "preview": "previews/crystal_iamverox.png"
     },
     {
-      "id": "crystal_ice",
-      "category": "crystal",
-      "name": "Ice",
-      "sha256": "ac79a16b8fe81fbcd4e1ae6718c182db08befcfb1027e0f13ea748924e2e780d",
-      "size": 16798,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/crystal_ice.png"
-    },
-    {
       "id": "crystal_kesu_main",
       "category": "crystal",
       "name": "Kesu Main",
@@ -1643,16 +2193,6 @@
       "preview": "previews/gap_909_purple.png"
     },
     {
-      "id": "gap_abyss",
-      "category": "gap",
-      "name": "Abyss",
-      "sha256": "1ca5654405512cb6f397595004387ae6942af1b9a22a139873fee811b6e18c43",
-      "size": 783,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/gap_abyss.png"
-    },
-    {
       "id": "gap_aiimgod_pwivate",
       "category": "gap",
       "name": "AiimGod Pwivate",
@@ -1691,16 +2231,6 @@
       "added": "2026-10-02",
       "early": false,
       "preview": "previews/gap_bauloo_privat.png"
-    },
-    {
-      "id": "gap_blood",
-      "category": "gap",
-      "name": "Blood",
-      "sha256": "54d648a4786842199062b507415a009b7c09a61146c0c1d856032aa27ae3aaa4",
-      "size": 767,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/gap_blood.png"
     },
     {
       "id": "gap_candycrystals_remasterd",
@@ -1881,16 +2411,6 @@
       "added": "2026-10-23",
       "early": false,
       "preview": "previews/gap_tostertobi_the_nn.png"
-    },
-    {
-      "id": "gap_void",
-      "category": "gap",
-      "name": "Void",
-      "sha256": "4314af2283eaa4588d7708ee1dbedfb3a1e7826e49e3e232b1687f93b1233075",
-      "size": 791,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/gap_void.png"
     },
     {
       "id": "glowstone_blue_by_aiimgod",
@@ -2273,16 +2793,6 @@
       "preview": "previews/mace_monkahhremake.png"
     },
     {
-      "id": "mace_mono",
-      "category": "mace",
-      "name": "Mono",
-      "sha256": "455ca7b754acafc3c5888187b5f23273123c735dff8d87709924f84fdb7625bf",
-      "size": 2292,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/mace_mono.png"
-    },
-    {
       "id": "mace_neon",
       "category": "mace",
       "name": "Neon",
@@ -2331,16 +2841,6 @@
       "added": "2026-10-17",
       "early": false,
       "preview": "previews/mace_rainbow.png"
-    },
-    {
-      "id": "mace_redblack",
-      "category": "mace",
-      "name": "Red & Black",
-      "sha256": "2a4f06c7e21135a144c95ca128a988abfbe8b29dce8bc2433efaf3c3a4a7ab58",
-      "size": 2302,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/mace_redblack.png"
     },
     {
       "id": "mace_royal_gold",
@@ -2803,16 +3303,6 @@
       "preview": "previews/pearl_helpmesoft_remaik_pack.png"
     },
     {
-      "id": "pearl_hex",
-      "category": "pearl",
-      "name": "Hex",
-      "sha256": "ffcfd7591342f742660786ec39a84e2a317848e5c9821867bbbab18fe87cc2a4",
-      "size": 777,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/pearl_hex.png"
-    },
-    {
       "id": "pearl_hydros",
       "category": "pearl",
       "name": "Hydros",
@@ -2881,16 +3371,6 @@
       "added": "2026-10-05",
       "early": false,
       "preview": "previews/pearl_marlowww_3d.png"
-    },
-    {
-      "id": "pearl_mint",
-      "category": "pearl",
-      "name": "Mint",
-      "sha256": "bb29cc5d025211298671a54e49ce047e3d70924c8a032ef74c248df4b54e6714",
-      "size": 779,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/pearl_mint.png"
     },
     {
       "id": "pearl_monkahhremake",
@@ -3043,16 +3523,6 @@
       "preview": "previews/pearl_veroxsibbi.png"
     },
     {
-      "id": "pearl_void",
-      "category": "pearl",
-      "name": "Void",
-      "sha256": "4fa9521bfb63467468cb77a4a375634c46327018752a08c7ffd9e16d3a72327a",
-      "size": 692,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/pearl_void.png"
-    },
-    {
       "id": "pearl_zurial0g",
       "category": "pearl",
       "name": "Zurial0G",
@@ -3191,16 +3661,6 @@
       "added": "2026-10-23",
       "early": false,
       "preview": "previews/shield_sigma.png"
-    },
-    {
-      "id": "sky_cloudphoto",
-      "category": "sky",
-      "name": "Cloud Photo",
-      "sha256": "00e96a1978b966c2bf438559d586e77088fcf8cc73f00840c22102fc7f5aaeed",
-      "size": 1258347,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sky_cloudphoto.png"
     },
     {
       "id": "spear_bone",
@@ -3363,16 +3823,6 @@
       "preview": "previews/spear_rainbow.png"
     },
     {
-      "id": "spear_redblack",
-      "category": "spear",
-      "name": "Red & Black",
-      "sha256": "fbbc81b083152d5592c2a1d619ef15e7ea9718691d4422681a260b242de24318",
-      "size": 10702,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/spear_redblack.png"
-    },
-    {
       "id": "spear_royal_gold",
       "category": "spear",
       "name": "Royal Gold",
@@ -3453,186 +3903,6 @@
       "preview": "previews/stone_veroxsibbi.png"
     },
     {
-      "id": "sword_6_l_ovanilla_e_l_o",
-      "category": "sword",
-      "name": "\u23216\u2321l\u2321oVANILLA \u2321e\u2321l\u2321o+",
-      "sha256": "b2b526c7a233964a1a1bba29e1d5f0a9e79ea70ff55d583d13947cb1d3dcc3c5",
-      "size": 1227,
-      "added": "2026-10-23",
-      "early": false,
-      "preview": "previews/sword_6_l_ovanilla_e_l_o.png"
-    },
-    {
-      "id": "sword_7_5_lein_4_lclient",
-      "category": "sword",
-      "name": "\u23217!#\u23215\u2321lEin\u23214\u2321lClient",
-      "sha256": "c53e95a02126c93bdb8ff858f58df34ce75b9c776215dae03e5d8c259b04d3a0",
-      "size": 30421,
-      "added": "2026-10-23",
-      "early": false,
-      "preview": "previews/sword_7_5_lein_4_lclient.png"
-    },
-    {
-      "id": "sword_abyss",
-      "category": "sword",
-      "name": "Abyss",
-      "sha256": "7f074711028cd99c13f452772faede666eeadad5b2cd7cdfa094c5c141f79880",
-      "size": 4170,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_abyss.png"
-    },
-    {
-      "id": "sword_aiimgod_pro",
-      "category": "sword",
-      "name": "AiimGod Pro",
-      "sha256": "5a9f322e2bc215ccfe7258a57b0f4a9f12baee7729327b54dd33052876591965",
-      "size": 4734,
-      "added": "2026-10-23",
-      "early": false,
-      "preview": "previews/sword_aiimgod_pro.png"
-    },
-    {
-      "id": "sword_auraexp_blu",
-      "category": "sword",
-      "name": "Auraexp Blu",
-      "sha256": "1b98b607981e4dcc03cb6edfa7d160e34e3fbec594d0ac16700d399cc1e9119b",
-      "size": 10086,
-      "added": "2026-10-04",
-      "early": false,
-      "preview": "previews/sword_auraexp_blu.png"
-    },
-    {
-      "id": "sword_blood",
-      "category": "sword",
-      "name": "Blood",
-      "sha256": "197ef8e9f7d2c8b530cb56987e16fe93bca421a1c1367fc1289445efc41a0f14",
-      "size": 4197,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_blood.png"
-    },
-    {
-      "id": "sword_dragneel",
-      "category": "sword",
-      "name": "Dragneel",
-      "sha256": "132421b8b99d0b340a54ca0fac45014d0807ebcd9e3d14410b01bab0cde53a78",
-      "size": 14017,
-      "added": "2026-10-23",
-      "early": false,
-      "preview": "previews/sword_dragneel.png"
-    },
-    {
-      "id": "sword_f_lsakura_tweaks",
-      "category": "sword",
-      "name": "\u2321F\u2321lSakura Tweaks",
-      "sha256": "3fc0eaa500e9708fcdd5ff4af66b70f1ca8aa1e5ac3f47ff02ce254b3cc24f4f",
-      "size": 10514,
-      "added": "2026-10-23",
-      "early": false,
-      "preview": "previews/sword_f_lsakura_tweaks.png"
-    },
-    {
-      "id": "sword_fruit_pack_kopie",
-      "category": "sword",
-      "name": "Fruit Pack - Kopie",
-      "sha256": "c3c4c10a282388afaec4974c2b9ec6f2b5bc8a89060e5ad93a51b9e18c031db8",
-      "size": 434791,
-      "added": "2026-10-23",
-      "early": false,
-      "preview": "previews/sword_fruit_pack_kopie.png"
-    },
-    {
-      "id": "sword_gilded",
-      "category": "sword",
-      "name": "Gilded",
-      "sha256": "ebe5f880faea072086ea072cad79d1f5ada4aa706be3bd53dfb2b8854ee2b609",
-      "size": 3943,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_gilded.png"
-    },
-    {
-      "id": "sword_hex",
-      "category": "sword",
-      "name": "Hex",
-      "sha256": "016de589b68d7308ce3aed33e2b14e711bbbbcb2bef36db873b347c7208f6ffc",
-      "size": 4102,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_hex.png"
-    },
-    {
-      "id": "sword_ice",
-      "category": "sword",
-      "name": "Ice",
-      "sha256": "059d265e8c9b226f8f1fb035ef41ae7760ce91b4caa7fff864709256bf38bb6b",
-      "size": 4215,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_ice.png"
-    },
-    {
-      "id": "sword_mint",
-      "category": "sword",
-      "name": "Mint",
-      "sha256": "5d2ce2efcf8083a56b46490732de9efff5ff073f4cbc400c6d85f92a8e98db63",
-      "size": 4063,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_mint.png"
-    },
-    {
-      "id": "sword_mono",
-      "category": "sword",
-      "name": "Mono",
-      "sha256": "28b546057e5f21b1d04f12f99f674c65639874559cd8d65b11d7cf198a825586",
-      "size": 4100,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_mono.png"
-    },
-    {
-      "id": "sword_redblack",
-      "category": "sword",
-      "name": "Red & Black",
-      "sha256": "b1210df7a946e41ef115188a42565b0df89f050240c2c8d1b5406fc880e2781b",
-      "size": 4589,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_redblack.png"
-    },
-    {
-      "id": "sword_sunset",
-      "category": "sword",
-      "name": "Sunset",
-      "sha256": "70043df6c12f20af214328e307775c16b29b539ad99becc6a8971f97498547a9",
-      "size": 4078,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_sunset.png"
-    },
-    {
-      "id": "sword_the_best_lifesteal_smp_texture_pack_1_19",
-      "category": "sword",
-      "name": "The BEST Lifesteal SMP Texture pack 1.19",
-      "sha256": "40e62e991f6395e65f0d4e49cb90bacbcd1bf583e9efe8409ba13191308186ac",
-      "size": 2027,
-      "added": "2026-10-23",
-      "early": false,
-      "preview": "previews/sword_the_best_lifesteal_smp_texture_pack_1_19.png"
-    },
-    {
-      "id": "sword_verdant",
-      "category": "sword",
-      "name": "Verdant",
-      "sha256": "1610dc742c769308aa9e4d314e9a946d7906f6ea30af325bf28744c2115f8239",
-      "size": 4209,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/sword_verdant.png"
-    },
-    {
       "id": "totem_2crick_private",
       "category": "totem",
       "name": "2Crick Private",
@@ -3641,16 +3911,6 @@
       "added": "2026-10-23",
       "early": false,
       "preview": "previews/totem_2crick_private.png"
-    },
-    {
-      "id": "totem_abyss",
-      "category": "totem",
-      "name": "Abyss",
-      "sha256": "5e8bddba7c8178d408b3accefc4e228c33958d3a04d06deab86674429c0a8eab",
-      "size": 820,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/totem_abyss.png"
     },
     {
       "id": "totem_aiimgod",
@@ -3723,16 +3983,6 @@
       "preview": "previews/totem_bloaqua.png"
     },
     {
-      "id": "totem_blood",
-      "category": "totem",
-      "name": "Blood",
-      "sha256": "8d2d8600e6b05331a96ff9a995bb5f064e8b48e612986948c0e641b600549721",
-      "size": 806,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/totem_blood.png"
-    },
-    {
       "id": "totem_defcon_top_pack",
       "category": "totem",
       "name": "Defcon top pack",
@@ -3771,16 +4021,6 @@
       "added": "2026-10-10",
       "early": false,
       "preview": "previews/totem_galaxy.png"
-    },
-    {
-      "id": "totem_gilded",
-      "category": "totem",
-      "name": "Gilded",
-      "sha256": "e931c35083cf8370c5c8d3544b665eb7ce80ebab7884411e789d92b2728b843a",
-      "size": 824,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/totem_gilded.png"
     },
     {
       "id": "totem_gold_outline",
@@ -3911,16 +4151,6 @@
       "added": "2026-10-06",
       "early": false,
       "preview": "previews/totem_sixuii_tweaks.png"
-    },
-    {
-      "id": "totem_skull",
-      "category": "totem",
-      "name": "Skull",
-      "sha256": "34c1d1ff963ba6cef36aa0452b8cea124b9b7e64ef4fc78205c9fc9b4c63ceb0",
-      "size": 757,
-      "added": "2026-11-01",
-      "early": false,
-      "preview": "previews/totem_skull.png"
     },
     {
       "id": "totem_teletuppes",
@@ -4161,6 +4391,266 @@
       "added": "2026-10-17",
       "early": false,
       "preview": "previews/trident_void.png"
+    },
+    {
+      "id": "sky_2crick_private",
+      "category": "sky",
+      "name": "2Crick Private",
+      "sha256": "ec98584ae122bf78b5261780d341c928ad383ad1c12b1d9fb7157f01750b0c6c",
+      "size": 7956136,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_2crick_private.png"
+    },
+    {
+      "id": "sky_absol",
+      "category": "sky",
+      "name": "Absol",
+      "sha256": "39efe417a791cd1a078045b06b3d1288073bfa1c42b06cf75878b651a1eeeedb",
+      "size": 14097833,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_absol.png"
+    },
+    {
+      "id": "sky_azell_purple",
+      "category": "sky",
+      "name": "Azell Purple",
+      "sha256": "fc973c60b417e770473c627a8d5654675354f5a01333782be3ee2f05daae7f10",
+      "size": 9141766,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_azell_purple.png"
+    },
+    {
+      "id": "sky_blossom",
+      "category": "sky",
+      "name": "Blossom",
+      "sha256": "af735338f122fae07f0c68d048a39e3fe6e4f98098b384f5e9ca93f49bc6298a",
+      "size": 15500915,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_blossom.png"
+    },
+    {
+      "id": "sky_blue_desert",
+      "category": "sky",
+      "name": "Blue Desert",
+      "sha256": "3ece8740d27fa1c640d18e672832a8047abadced56cd3cd8915c90145cde4835",
+      "size": 5754903,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_blue_desert.png"
+    },
+    {
+      "id": "sky_bthe6legend327_16x_6revamp",
+      "category": "sky",
+      "name": "Bthe6Legend327 16X 6Revamp",
+      "sha256": "28c7355e8a2d9e6046565a78dc79b19e5357879a42ea01a7d89eedeb18b3bfa6",
+      "size": 9497322,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_bthe6legend327_16x_6revamp.png"
+    },
+    {
+      "id": "sky_burj_al_arab",
+      "category": "sky",
+      "name": "Burj Al Arab",
+      "sha256": "a5ea4b97ca465450b09f6fe903caa668d552c5eb8864a8763b5c0d6a232feb45",
+      "size": 1732962,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_burj_al_arab.png"
+    },
+    {
+      "id": "sky_cloudy_sea",
+      "category": "sky",
+      "name": "Cloudy Sea",
+      "sha256": "3712a9862aa52f156c93a64de1d17d737c6e0268a114019cc49b868ea3ead5b8",
+      "size": 12678807,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_cloudy_sea.png"
+    },
+    {
+      "id": "sky_dark_forest",
+      "category": "sky",
+      "name": "Dark Forest",
+      "sha256": "b7c720196406629997831f631b51638586cf0cbbef8730aa9d894db861c8d066",
+      "size": 10557804,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_dark_forest.png"
+    },
+    {
+      "id": "sky_darkness",
+      "category": "sky",
+      "name": "Darkness",
+      "sha256": "6eb377bde3df7b9fef3ce21718d16d85c446d25a16d5abad5fcb44e49b3bb485",
+      "size": 6175622,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_darkness.png"
+    },
+    {
+      "id": "sky_defcon_top",
+      "category": "sky",
+      "name": "Defcon Top",
+      "sha256": "82ae74fe0819a45d8f3862bd3b9c7205bfa1cafc9d57880be82bcfaa036f90fe",
+      "size": 21572582,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_defcon_top.png"
+    },
+    {
+      "id": "sky_drac0q_s_sky_v2",
+      "category": "sky",
+      "name": "Drac0Q S Sky V2",
+      "sha256": "aa5ebdf58ffb0ee8d3a43178c0277b10dbb0f74cd34dd04cc3ae738be1c4dc95",
+      "size": 7812546,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_drac0q_s_sky_v2.png"
+    },
+    {
+      "id": "sky_evantiisky_private",
+      "category": "sky",
+      "name": "Evantiisky Private",
+      "sha256": "bd270da9383a919d6e1aa321bddc86ed33a6895aed49fc8b131959b236e66fb4",
+      "size": 8286584,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_evantiisky_private.png"
+    },
+    {
+      "id": "sky_fairyland",
+      "category": "sky",
+      "name": "Fairyland",
+      "sha256": "7ed82cb27529a686718bd04df38b99a56e2b5bc42c0726bb0144ae1088da4e9f",
+      "size": 13291451,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_fairyland.png"
+    },
+    {
+      "id": "sky_forchid",
+      "category": "sky",
+      "name": "Forchid",
+      "sha256": "d681d40a5b59ae5705f7e15f47323d5909a505f462b9632e8a4193243b2f710b",
+      "size": 17673849,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_forchid.png"
+    },
+    {
+      "id": "sky_green_polar_lights",
+      "category": "sky",
+      "name": "Green Polar Lights",
+      "sha256": "ea71c4b63d824a1eb308bf42814aeca4f7701f613ffbfff93ee0593be21520f4",
+      "size": 13184846,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_green_polar_lights.png"
+    },
+    {
+      "id": "sky_kesu_main",
+      "category": "sky",
+      "name": "Kesu Main",
+      "sha256": "6475cde5040ecf7202c317f2118f5bc8c525b02505965843e1390f43364f33d8",
+      "size": 10745812,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_kesu_main.png"
+    },
+    {
+      "id": "sky_memetheif_private",
+      "category": "sky",
+      "name": "Memetheif Private",
+      "sha256": "614368f94a26280779513a7049195d556793a6380ea81d4569160ca9782d335b",
+      "size": 20445131,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_memetheif_private.png"
+    },
+    {
+      "id": "sky_pokemon_blue",
+      "category": "sky",
+      "name": "Pokemon Blue",
+      "sha256": "d7e79fd97865f5946c8dc39f3b60cd6232cac019e2ff97547811a4f447b01b22",
+      "size": 4893862,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_pokemon_blue.png"
+    },
+    {
+      "id": "sky_purple_mountains",
+      "category": "sky",
+      "name": "Purple Mountains",
+      "sha256": "d657f9b412a99edd151898b8e807c232fac3e886e6ded09b98d7d52a1d29d94d",
+      "size": 13914139,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_purple_mountains.png"
+    },
+    {
+      "id": "sky_red_synthwave",
+      "category": "sky",
+      "name": "Red Synthwave",
+      "sha256": "a72fbc456155ba45162148503dcd097aa5e391a94249a550445d8e04ac875530",
+      "size": 8603651,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_red_synthwave.png"
+    },
+    {
+      "id": "sky_spectral",
+      "category": "sky",
+      "name": "Spectral",
+      "sha256": "4b11cbc7a215bc41d09910190b7406bfac1afe916e9b74f6eb22822e7ad2877e",
+      "size": 10207257,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_spectral.png"
+    },
+    {
+      "id": "sky_starrynightskyoverlay",
+      "category": "sky",
+      "name": "Starrynightskyoverlay",
+      "sha256": "cfbf30e6ce29ff91ef77810941989648804f727afeb15ef841eaca3cf9686d5b",
+      "size": 6624065,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_starrynightskyoverlay.png"
+    },
+    {
+      "id": "sky_steven_universe_recolour",
+      "category": "sky",
+      "name": "Steven Universe Recolour",
+      "sha256": "036aa153ecdc1c6279c2e3fd33354ec50de3660532aa5667345cf362e7f45492",
+      "size": 13237584,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_steven_universe_recolour.png"
+    },
+    {
+      "id": "sky_theos_pack_but_better",
+      "category": "sky",
+      "name": "Theos Pack But Better",
+      "sha256": "e6dbb87676b85f1a5cf2971a22a4365887c136dcbb00a489080db1cd8e4b1f5c",
+      "size": 79784463,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_theos_pack_but_better.png"
+    },
+    {
+      "id": "sky_tostraight_sky",
+      "category": "sky",
+      "name": "Tostraight Sky",
+      "sha256": "82ce11961608d7bb17bdd56d86f04609649aae46bb2a85ff0762bd0f98fec7bd",
+      "size": 6897538,
+      "added": "2026-10-24",
+      "early": false,
+      "preview": "previews/sky_tostraight_sky.png"
     }
   ],
   "categories": [
