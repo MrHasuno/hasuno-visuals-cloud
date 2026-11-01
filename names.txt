@@ -12,6 +12,24 @@ gap_void=Void
 crystal_ice=Ice
 armor_ice=Ice
 sky_cloudphoto=Cloud Photo
+
+# palettes made in-house, 1 Nov
+sword_mono=Mono
+sword_blood=Blood
+sword_verdant=Verdant
+sword_gilded=Gilded
+sword_abyss=Abyss
+sword_hex=Hex
+sword_sunset=Sunset
+sword_mint=Mint
+totem_blood=Blood
+totem_abyss=Abyss
+totem_gilded=Gilded
+gap_blood=Blood
+gap_abyss=Abyss
+pearl_hex=Hex
+pearl_mint=Mint
+mace_mono=Mono
 anchor_198m_blackie=198M Blackie
 anchor_azell_purple=azell purple
 anchor_blue_ayri=Blue Ayri
