@@ -1,5 +1,17 @@
 # display names for the hub: id=Name
 # leave a line out and the pack.mcmeta description is used instead
+# uploaded by hasuno, 1 Nov
+sword_redblack=Red & Black
+sword_ice=Ice
+axe_redblack=Red & Black
+spear_redblack=Red & Black
+mace_redblack=Red & Black
+totem_skull=Skull
+pearl_void=Void
+gap_void=Void
+crystal_ice=Ice
+armor_ice=Ice
+sky_cloudphoto=Cloud Photo
 anchor_198m_blackie=198M Blackie
 anchor_azell_purple=azell purple
 anchor_blue_ayri=Blue Ayri
