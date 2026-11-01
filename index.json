@@ -1643,6 +1643,16 @@
       "preview": "previews/gap_909_purple.png"
     },
     {
+      "id": "gap_abyss",
+      "category": "gap",
+      "name": "Abyss",
+      "sha256": "1ca5654405512cb6f397595004387ae6942af1b9a22a139873fee811b6e18c43",
+      "size": 783,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/gap_abyss.png"
+    },
+    {
       "id": "gap_aiimgod_pwivate",
       "category": "gap",
       "name": "AiimGod Pwivate",
@@ -1681,6 +1691,16 @@
       "added": "2026-10-02",
       "early": false,
       "preview": "previews/gap_bauloo_privat.png"
+    },
+    {
+      "id": "gap_blood",
+      "category": "gap",
+      "name": "Blood",
+      "sha256": "54d648a4786842199062b507415a009b7c09a61146c0c1d856032aa27ae3aaa4",
+      "size": 767,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/gap_blood.png"
     },
     {
       "id": "gap_candycrystals_remasterd",
@@ -2253,6 +2273,16 @@
       "preview": "previews/mace_monkahhremake.png"
     },
     {
+      "id": "mace_mono",
+      "category": "mace",
+      "name": "Mono",
+      "sha256": "455ca7b754acafc3c5888187b5f23273123c735dff8d87709924f84fdb7625bf",
+      "size": 2292,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/mace_mono.png"
+    },
+    {
       "id": "mace_neon",
       "category": "mace",
       "name": "Neon",
@@ -2773,6 +2803,16 @@
       "preview": "previews/pearl_helpmesoft_remaik_pack.png"
     },
     {
+      "id": "pearl_hex",
+      "category": "pearl",
+      "name": "Hex",
+      "sha256": "ffcfd7591342f742660786ec39a84e2a317848e5c9821867bbbab18fe87cc2a4",
+      "size": 777,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/pearl_hex.png"
+    },
+    {
       "id": "pearl_hydros",
       "category": "pearl",
       "name": "Hydros",
@@ -2841,6 +2881,16 @@
       "added": "2026-10-05",
       "early": false,
       "preview": "previews/pearl_marlowww_3d.png"
+    },
+    {
+      "id": "pearl_mint",
+      "category": "pearl",
+      "name": "Mint",
+      "sha256": "bb29cc5d025211298671a54e49ce047e3d70924c8a032ef74c248df4b54e6714",
+      "size": 779,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/pearl_mint.png"
     },
     {
       "id": "pearl_monkahhremake",
@@ -3423,6 +3473,16 @@
       "preview": "previews/sword_7_5_lein_4_lclient.png"
     },
     {
+      "id": "sword_abyss",
+      "category": "sword",
+      "name": "Abyss",
+      "sha256": "7f074711028cd99c13f452772faede666eeadad5b2cd7cdfa094c5c141f79880",
+      "size": 4170,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_abyss.png"
+    },
+    {
       "id": "sword_aiimgod_pro",
       "category": "sword",
       "name": "AiimGod Pro",
@@ -3441,6 +3501,16 @@
       "added": "2026-10-04",
       "early": false,
       "preview": "previews/sword_auraexp_blu.png"
+    },
+    {
+      "id": "sword_blood",
+      "category": "sword",
+      "name": "Blood",
+      "sha256": "197ef8e9f7d2c8b530cb56987e16fe93bca421a1c1367fc1289445efc41a0f14",
+      "size": 4197,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_blood.png"
     },
     {
       "id": "sword_dragneel",
@@ -3473,6 +3543,26 @@
       "preview": "previews/sword_fruit_pack_kopie.png"
     },
     {
+      "id": "sword_gilded",
+      "category": "sword",
+      "name": "Gilded",
+      "sha256": "ebe5f880faea072086ea072cad79d1f5ada4aa706be3bd53dfb2b8854ee2b609",
+      "size": 3943,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_gilded.png"
+    },
+    {
+      "id": "sword_hex",
+      "category": "sword",
+      "name": "Hex",
+      "sha256": "016de589b68d7308ce3aed33e2b14e711bbbbcb2bef36db873b347c7208f6ffc",
+      "size": 4102,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_hex.png"
+    },
+    {
       "id": "sword_ice",
       "category": "sword",
       "name": "Ice",
@@ -3481,6 +3571,26 @@
       "added": "2026-11-01",
       "early": false,
       "preview": "previews/sword_ice.png"
+    },
+    {
+      "id": "sword_mint",
+      "category": "sword",
+      "name": "Mint",
+      "sha256": "5d2ce2efcf8083a56b46490732de9efff5ff073f4cbc400c6d85f92a8e98db63",
+      "size": 4063,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_mint.png"
+    },
+    {
+      "id": "sword_mono",
+      "category": "sword",
+      "name": "Mono",
+      "sha256": "28b546057e5f21b1d04f12f99f674c65639874559cd8d65b11d7cf198a825586",
+      "size": 4100,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_mono.png"
     },
     {
       "id": "sword_redblack",
@@ -3493,6 +3603,16 @@
       "preview": "previews/sword_redblack.png"
     },
     {
+      "id": "sword_sunset",
+      "category": "sword",
+      "name": "Sunset",
+      "sha256": "70043df6c12f20af214328e307775c16b29b539ad99becc6a8971f97498547a9",
+      "size": 4078,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_sunset.png"
+    },
+    {
       "id": "sword_the_best_lifesteal_smp_texture_pack_1_19",
       "category": "sword",
       "name": "The BEST Lifesteal SMP Texture pack 1.19",
@@ -3503,6 +3623,16 @@
       "preview": "previews/sword_the_best_lifesteal_smp_texture_pack_1_19.png"
     },
     {
+      "id": "sword_verdant",
+      "category": "sword",
+      "name": "Verdant",
+      "sha256": "1610dc742c769308aa9e4d314e9a946d7906f6ea30af325bf28744c2115f8239",
+      "size": 4209,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/sword_verdant.png"
+    },
+    {
       "id": "totem_2crick_private",
       "category": "totem",
       "name": "2Crick Private",
@@ -3511,6 +3641,16 @@
       "added": "2026-10-23",
       "early": false,
       "preview": "previews/totem_2crick_private.png"
+    },
+    {
+      "id": "totem_abyss",
+      "category": "totem",
+      "name": "Abyss",
+      "sha256": "5e8bddba7c8178d408b3accefc4e228c33958d3a04d06deab86674429c0a8eab",
+      "size": 820,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/totem_abyss.png"
     },
     {
       "id": "totem_aiimgod",
@@ -3583,6 +3723,16 @@
       "preview": "previews/totem_bloaqua.png"
     },
     {
+      "id": "totem_blood",
+      "category": "totem",
+      "name": "Blood",
+      "sha256": "8d2d8600e6b05331a96ff9a995bb5f064e8b48e612986948c0e641b600549721",
+      "size": 806,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/totem_blood.png"
+    },
+    {
       "id": "totem_defcon_top_pack",
       "category": "totem",
       "name": "Defcon top pack",
@@ -3621,6 +3771,16 @@
       "added": "2026-10-10",
       "early": false,
       "preview": "previews/totem_galaxy.png"
+    },
+    {
+      "id": "totem_gilded",
+      "category": "totem",
+      "name": "Gilded",
+      "sha256": "e931c35083cf8370c5c8d3544b665eb7ce80ebab7884411e789d92b2728b843a",
+      "size": 824,
+      "added": "2026-11-01",
+      "early": false,
+      "preview": "previews/totem_gilded.png"
     },
     {
       "id": "totem_gold_outline",
